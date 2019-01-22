@@ -196,4 +196,49 @@ p + h3 {
   .job-description p:first-of-type {
     margin-top: 7px;
   }
+
+}
+
+@media (max-width:599px){
+  nav a {
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:450px){
+  nav a {
+    display: inline-block;
+    padding: 15px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:396px){
+  nav a {
+    display: inline-block;
+    padding: 15px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:370px){
+  nav a {
+    display: inline-block;
+    padding: 15px 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+  }
 }
