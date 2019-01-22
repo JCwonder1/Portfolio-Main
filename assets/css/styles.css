@@ -1,0 +1,181 @@
+/* 
+    Color Palette
+    Dark Blue - #133c55
+    Light Blue - #A4CDE9
+    Bright Blue - #2E5EAA
+    Blue Grey - #546A7B
+    Green - #CDF3CC
+*/
+
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: 'Pontano Sans', sans-serif;
+    margin: 0;
+  }
+  h1, h2 {
+    font-family: 'Cinzel', serif;
+    /* font-weight: 400; */
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  h3 {
+    margin: 0;
+    margin-bottom: 0px;
+  }
+  a {
+    color: #133c55;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #A4cdE9;
+  }
+  .content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+  }
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .font-bold {
+    font-weight: 700;
+  }
+
+  /* Download button */
+
+  .btn {
+  text-decoration: none;
+  background: #ED6A5A;
+  border: #2E5EAA;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+  /* Header and Footer
+-------------------------*/
+header, footer {
+    background: #133C55;
+    color: #A4CDE9;
+  }
+  /* header */
+  header {
+    padding-top: 50px;
+    position: relative;
+  }
+  header h1, header h2 {
+    color: #EDF2F4;
+    margin: 0;
+  }
+  .profile-img {
+    border-radius: 50%;
+  }
+  .download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+/* Footer */
+footer {
+    text-align: center;
+}
+.contact-info a {
+    padding: 10px;
+    font-size: 24px;
+    display: inline-block;
+    color: #A4CDE9;
+  }
+
+.contact-info a:hover{
+  color: white;
+}
+  
+  
+  /* Navigation
+  -------------------------*/
+  nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+/* Experience
+-------------------------*/
+.work {
+  background: white;
+}
+h3 ~ p {
+  margin: 0;
+  margin-top: 10px;
+
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+/* Portfolio
+-------------------------*/
+.content-wrap-portfolio {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0px 50px;
+  overflow: hidden;
+}
+
+.content-wrap-portfolio img{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+/* Education
+-------------------------*/
+.education {
+  /* background: #546A7B; */
+  /* color: #A4CDE9; */
+  background: linear-gradient(rgba(19, 60, 85, .8), rgba(19, 60, 85, .5)), url(../images/sam-trotman-758969-unsplash.jpg) no-repeat fixed;
+  background-size: cover;
+}
+p + h3 {
+  margin-top: 30px;
+}
